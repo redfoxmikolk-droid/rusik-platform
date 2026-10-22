@@ -114,6 +114,6 @@ app.post('/api/buy-plus', async (req, res) => {
     }
 });
 
-app.listen(3000, '0.0.0.0', () => {
+app.listen(8080, '0.0.0.0', () => {
     console.log('Сервер запущен на http://localhost:3000');
 });
